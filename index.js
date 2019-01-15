@@ -22,6 +22,7 @@ function johnLennonFacts(more_facts) {
   let i = 0;
   while (i < facts.length) {
   new_array.push(facts[i] + "!!!");
+  new_array.push(more_facts + "!!!");
     i++;
   }
   return new_array;
